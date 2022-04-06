@@ -57,7 +57,10 @@ a {
     margin-top: 400px;
 }
 .carousel{
-    margin: 20px 20px 1000px 20px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    margin-right: 100px;
+    margin-top: 20px;
 } 
 /*Productos*/
 
@@ -73,6 +76,11 @@ a {
     margin: 80px;
     color: #BF7F5A;
 }
+.opciones_productos{
+    margin-left: 50px;
+    margin-right: 700px;
+    text-align: justify;
+}
 /*contactos*/
 
 .titulo__contactos{
@@ -84,4 +92,35 @@ a {
 .datos{
     margin: 40px;
     text-align: center;
+}
+.producto img{
+    display:flexbox;
+    width: 3000px;
+    margin-top: 20px;
+}
+.products{
+    margin-top: 40px;
+    background-color: transparent;
+    color: #8C4830;
+    margin-bottom: 50px;
+
+}
+.taller__titulo{
+    background-color: transparent;
+    color: #8C4830;
+    margin-top: 90px;
+
+}
+.Ustedes_imagenes{
+    margin-left: 100px;
+}
+.taller_texto{
+    color: #BF7F5A;
+    text-align: center;
+}
+.taller_lista{
+    color: #8C4830;
+}
+.contacto{
+    margin-left: 100px;
 }

@@ -48,6 +48,9 @@ body{
 
 
 /*Main*/
+main{
+    width: 100%;
+}
 h2{
     background-color:#8C4830 ;
     font-style: oblique;
@@ -126,8 +129,9 @@ footer{
     font-size: 20px;
     background-color:#c9784a;
     color:#F2C7AE;
-    position:relative;
+    position:sticky;
     margin-top: 100px;
+
 }
 
 @media screen and (max-width:1200px){
@@ -384,4 +388,56 @@ video{
     .grid__item{
         background-color: aliceblue;
     }
+}
+
+.ustedes{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50xpx;
+}
+.titulo{
+    color:#8C4830;
+    font-style:'Supermercado One', cursiva;
+}
+.titulo__parrafo{
+    text-align: center;
+    color: #bb7f5e;
+}
+.taller{
+    margin-top: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.taller__titulo{
+    text-align: left;
+    font-style: 'Supermercado One', cursiva;   
+}
+.li{
+    color:#bb7f5e;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    
+}
+.producto img{
+    display:flex;
+    width: 250px;
+    margin-top: 30px;
+    
+}
+.card1{
+    margin-top: 50px;
+    display: flex;
+    width:400px;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(40, 37, 37), 0 1px 2px black;   
+    justify-content: center;
+    
+}
+.contactos{
+    margin-left: 100px;
 }

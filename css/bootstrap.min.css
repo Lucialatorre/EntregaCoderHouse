@@ -87,11 +87,16 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #BF7F5A;
     text-align: center;
-    margin: 80px;
 }
 .datos{
-    margin: 40px;
-    text-align: center;
+    justify-content: center;
+    width: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: normal;
+    margin-left: 50px;
+}
+.mapa{
+    margin-top: 15px;
 }
 .producto img{
     display:flexbox;
